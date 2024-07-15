@@ -82,7 +82,8 @@
   </section>
   <!--desktop hero section ends here  -->
   <!-- mobile hero section starts here  -->
-  <section class="hero bg-gradient-to-r from-[#901819] via-[#bc3032] to-[#c03a3b] relative lg:hidden block px-5 py-8">
+  <section
+    class="hero bg-gradient-to-r from-[#901819] via-[#bc3032] to-[#c03a3b] relative lg:hidden block px-5 py-8 overflow-hidden">
     <div class="self-center space-y-7  max-w-[210px] md:max-w-[450px]">
       <div class="space-y-4">
         <h1 class="text-2xl md:text-3xl text-white font-medium uppercase">
@@ -168,67 +169,385 @@
   </section>
   <!-- program end -->
 
+
+
+
+
+
+
+
+
   <!-- label & round start -->
-  <section id="level" class="bg-[#fff5e6] md:py-24 py-10">
-    <div class="container mx-auto px-5 xl:px-16">
+  <section id="level" class="bg-[#fff5e6] md:py-24 py-10 px-6">
+    <div class="container mx-auto">
       <!-- heading title -->
       <div>
-        <h3 class="text-center text-[#c03a3b] md:text-3xl text-xl uppercase font-semibold md:pb-20 pb-6">Levels & Rounds
+        <h3 class="text-center text-[#c03a3b] md:text-3xl text-xl uppercase font-semibold md:pb-20 pb-16">Levels
+          &
+          Rounds
         </h3>
       </div>
-      <!-- image -->
-      <div class="hidden lg:block">
-        <img src="img/label-and-round.png" alt="level" class="w-full object-fit ">
+      <!-- chart pc start -->
+      <div class="lg:block hidden">
+        <div class="relative">
+          <div
+            class="mx-auto w-full h-20 flex flex-row items-center justify-evenly absolute 2xl:top-24 xl:top-16 lg:top-10">
+            <div class="text-center max-w-1/4 xl:-ml-28 lg:-ml-24">
+              <h4 class="xl:text-[22px] lg:text-md font-medium ">INTERSCHOOL</h4>
+              <p
+                class="xl:max-w-[220px] max-w-[180px] xl:text-lg lg:text-base font-medium text-[#851314] leading-6 pt-2 pb-[26px]">
+                Strengthens
+                vocabulary
+                and grammar skills</p>
+            </div>
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4 xl:-ml-0 lg:-ml-22">
+              <h4 class="xl:text-[22px] lg:text-md font-medium ">NATIONAL</h4>
+              <p
+                class="xl:max-w-[220px] max-w-[180px] xl:text-lg lg:text-base font-medium text-[#a55a02] leading-6 pt-2 pb-[26px]">
+                Enhances verbal
+                ability
+                and language accuracys</p>
+            </div>
+            <div class="text-center max-w-1/4"></div>
+          </div>
+          <!-- list 1 & 3 start -->
+          <div
+            class="mx-auto w-full h-20 flex flex-row items-center justify-evenly absolute 2xl:top-[28rem] xl:top-[22rem] lg:top-[18rem]">
+            <div class="text-center max-w-1/4 2xl:-ml-28 xl:-ml-30 lg:-ml-20">
+              <ul class="space-y-1.5 ">
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>1.</span>
+                  <p class="text-start">Spell it
+                    Right</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>2.</span>
+                  <p class="text-start">Word
+                    Analysis<br>
+                    (Root words)</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>3.</span>
+                  <p class="text-start">Inflections and <br>Collocations</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>4.</span>
+                  <p class="text-start">Find the Correct <br>Sentence</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>5.</span>
+                  <p class="text-start">General
+                    Knowledge<br>
+                    (Literary World)</p>
+                </li>
+              </ul>
+            </div>
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4">
+              <ul class="mx-auto space-y-1.5">
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                  <span>10.</span>
+                  <p>Crossword</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                  <span>11.</span>
+                  <p>Word Weaving</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                  <span>12.</span>
+                  <p class="text-start">Compound Words<br>
+                    and Kinds/Types
+                    <br>of Words
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="text-center max-w-1/4"></div>
+          </div>
+          <!-- list 1 & 3 end -->
+          <img src="img/level-pc-full.png" alt="level" class="w-full object-fit hidden md:block">
+          <!-- list 2 & 4 start -->
+          <div
+            class=" mx-auto w-full h-20 flex flex-row items-center justify-evenly absolute 2xl:bottom-[21rem] xl:bottom-[18rem] lg:bottom-52">
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4 2xl:-mr-18 xl:-mr-18 lg:mr-8">
+              <ul class="space-y-1.5">
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>6.</span>
+                  <p class="text-start">Word
+                    Analysis
+                    <br>(Root words)
+                  </p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>7.</span>
+                  <p class="text-start">Form the Correct <br>Sentence</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                  <span>8.</span>
+                  <p>Phonetics</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>9.</span>
+                  <p class="text-start">Reading<br>
+                    Comprehension</p>
+                </li>
+              </ul>
+            </div>
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4 xl:-mr-28 lg:-mr-20">
+              <ul class="space-y-1.5">
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>13.</span>
+                  <p class="text-start">Synonyms and<br>
+                    Antonyms</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>14.</span>
+                  <p class="text-start">Idioms, Phrases<br>
+                    and Proverbs</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>15.</span>
+                  <p class="text-start">Presenting an<br>
+                    Argument</p>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <!-- list 2 & 4 end -->
+          <div
+            class="mx-auto w-full h-20 flex flex-row items-center justify-evenly absolute 2xl:bottom-10 xl:bottom-7 lg:-bottom-3">
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4 xl:-mr-18 lg:-mr-18">
+              <h4 class="xl:text-[22px] lg:text-md font-medium">REGIONAL/STATE</h4>
+              <p
+                class="xl:max-w-[220px] max-w-[180px] xl:text-lg lg:text-base font-medium text-[#06375f] leading-6 pt-2 pb-[26px]">
+                Improves
+                pronunciation
+                and comprehension</p>
+            </div>
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4 xl:-mr-28 lg:-mr-20">
+              <h4 class="xl:text-[22px] lg:text-md font-medium ">INTERNATIONAL</h4>
+              <p
+                class="xl:max-w-[220px] max-w-[180px] xl:text-lg lg:text-base font-medium text-[#053b0c] leading-6 pt-2 pb-[26px]">
+                Promotes competency
+                in conversational
+                English and critical thinking skills</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="max-w-[90%] mx-auto flex flex-row intems-center justify-around mt-7">
+          <p class="xl:text-3xl lg:text-2xl text-[#c03a3b] font-medium">1 to 5 Rounds</p>
+          <p class="xl:text-3xl lg:text-2xl text-[#c03a3b] font-medium">1 to 9 Rounds</p>
+          <p class="xl:text-3xl lg:text-2xl text-[#c03a3b] font-medium">1 to 12 Rounds</p>
+          <p class="xl:text-3xl lg:text-2xl text-[#c03a3b] font-medium">1 to 15 Rounds</p>
+        </div>
       </div>
-      <!-- mobile  -->
-      <div class="block lg:hidden pt-8">
-        <!-- sing item  -->
-        <div>
-          <img src="img/label1.png" class="max-w-[335px] mx-auto" alt="label">
-          <div class="text-center pt-3">
-            <h2 class="text-xl font-medium">INTERSCHOOL</h2>
-            <p class="text-[#851314]  pb-4 font-medium">Strengthens vocabulary <br>
+      <!-- chart pc end -->
+      <!-- chart mobile start -->
+      <div class="lg:hidden flex flex-col items-center justify-center space-y-14">
+        <!-- items 1 -->
+        <div class="flex flex-col items-center justify-center ">
+          <!-- img -->
+          <div class="relative">
+            <img src="img/level-mobile-1.png" alt="" class="object-fill w-full h-full">
+            <ul class="absolute top-[30%] left-[55%] -translate-x-[55%]  z-10 xs:space-y-1.5 mx:space-y-2">
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>1.</span>
+                <p>Spell it
+                  Right</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>2.</span>
+                <p>Word
+                  Analysis
+                  (Root words)</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>3.</span>
+                <p>Inflections
+                  and
+                  Collocations</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>4.</span>
+                <p>Find the
+                  Correct
+                  Sentence</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>5.</span>
+                <p>General
+                  Knowledge
+                  (Literary World)</p>
+              </li>
+            </ul>
+          </div>
+          <div class=" text-center mt-[20px]">
+            <h4 class="sm:text-[22px] text-lg font-medium">INTERSCHOOL</h4>
+            <p
+              class="sm:max-w-[220px] max-w-[180px] sm:text-lg text-sm font-medium text-[#053b0c] sm:leading-5 sm:pt-2 sm:pb-[26px] pt-2 pb-[20px]">
+              Strengthens
+              vocabulary
               and grammar skills</p>
-            <p class="text-[#c03a3b] text-xl font-medium">1 to 5 Rounds</p>
+            <h5 class="sm:text-[28px] text-xl font-medium text-[#c03a3b]">1 to 5 Rounds</h5>
           </div>
         </div>
-        <!-- sing item  -->
-        <div class="py-14">
-          <img src="img/label2.png" class="max-w-[335px] mx-auto" alt="label">
-          <div class="text-center pt-3">
-            <h2 class="text-xl font-medium">REGIONAL/STATE</h2>
-            <p class="text-[#06375f]  pb-4 font-medium">Improves pronunciation
-              <br>
-              and comprehension
-            </p>
-            <p class="text-[#c03a3b] text-xl font-medium">1 to 9 Rounds</p>
+        <!-- items 2 -->
+        <div class="flex flex-col items-center justify-center ">
+          <!-- img -->
+          <div class="relative">
+            <img src="img/level-mobile-2.png" alt="" class="object-fill w-full h-full">
+            <ul class="absolute top-[36%] left-[55%] -translate-x-[55%]  z-10 space-y-1.5">
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>6.</span>
+                <p>Word
+                  Analysis
+                  (Root words)</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>7.</span>
+                <p>Form the Correct Sentence</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>8.</span>
+                <p>Phonetics</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>9.</span>
+                <p>Reading
+                  Comprehension</p>
+              </li>
+            </ul>
+          </div>
+          <div class=" text-center mt-[20px]">
+            <h4 class="sm:text-[22px] text-lg font-medium">REGIONAL/STATE</h4>
+            <p
+              class="sm:max-w-[220px] max-w-[180px] sm:text-lg text-sm font-medium text-[#053b0c] ms:leading-6 sm:pt-2 sm:pb-[26px] pt-2 pb-[20px]">
+              Improves pronunciation
+              and comprehension</p>
+            <h5 class="sm:text-[28px] text-xl font-medium text-[#c03a3b]">1 to 9 Rounds</h5>
           </div>
         </div>
-        <!-- sing item  -->
-        <div>
-          <img src="img/label3.png" class="max-w-[335px] mx-auto" alt="label">
-          <div class="text-center pt-3">
-            <h2 class="text-xl font-medium">NATIONAL</h2>
-            <p class="text-[#a55a02]  pb-4 font-medium">Enhances verbal ability <br>
-              and language accuracy</p>
-            <p class="text-[#c03a3b] text-xl font-medium">1 to 12 Rounds</p>
+        <!-- items 3 -->
+        <div class="flex flex-col items-center justify-center ">
+          <!-- img -->
+          <div class="relative">
+            <img src="img/level-mobile-3.png" alt="" class="object-fill w-full h-full">
+            <ul class="absolute top-[40%] left-[55%] -translate-x-[55%]  z-10 space-y-1">
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                <span>10.</span>
+                <p>Crossword</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                <span>11.</span>
+                <p>Word Weaving</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                <span>12.</span>
+                <p>Compound Words
+                  and Kinds/Types
+                  of Words</p>
+              </li>
+            </ul>
+          </div>
+          <div class=" text-center mt-[20px]">
+            <h4 class="sm:text-[22px] text-lg font-medium">NATIONAL</h4>
+            <p
+              class="sm:max-w-[220px] max-w-[180px] sm:text-lg text-sm font-medium text-[#053b0c] ms:leading-6 sm:pt-2 sm:pb-[26px] pt-2 pb-[20px]">
+              Enhances verbal ability
+              and language accuracys</p>
+            <h5 class="sm:text-[28px] text-xl font-medium text-[#c03a3b]">1 to 12 Rounds</h5>
           </div>
         </div>
-        <!-- sing item  -->
-        <div class="pt-14">
-          <img src="img/label4.png" class="max-w-[335px] mx-auto" alt="label">
-          <div class="text-center pt-3">
-            <h2 class="text-xl font-medium">INTERSCHOOL</h2>
-            <p class="text-[#053b0c]  pb-4 font-medium">Promotes competency <br>
-              in conversational <br>
+        <!-- items 4 -->
+        <div class="flex flex-col items-center justify-center ">
+          <!-- img -->
+          <div class="relative">
+            <img src="img/level-mobile-4.png" alt="" class="object-fill w-full h-full">
+            <ul class="absolute top-[40%] left-[55%] -translate-x-[55%]  z-10 space-y-1">
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>13.</span>
+                <p>Synonyms and
+                  Antonyms</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>14.</span>
+                <p>Idioms, Phrases
+                  and Proverbs</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>15.</span>
+                <p>Presenting an
+                  Argument</p>
+              </li>
+            </ul>
+          </div>
+          <div class=" text-center mt-[20px]">
+            <h4 class="sm:text-[22px] text-lg font-medium ">INTERNATIONAL</h4>
+            <p
+              class="sm:max-w-[220px] max-w-[180px] sm:text-lg text-sm font-medium text-[#053b0c] ms:leading-6 sm:pt-2 sm:pb-[26px] pt-2 pb-[20px]">
+              Promotes competency
+              in conversational
               English and critical thinking skills</p>
-            <p class="text-[#c03a3b] text-xl font-medium">1 to 15 Rounds</p>
+            <h5 class="sm:text-[28px] text-xl font-medium text-[#c03a3b]">1 to 15 Rounds</h5>
           </div>
         </div>
       </div>
+      <!-- chart mobile end -->
     </div>
   </section>
   <!-- label & round end -->
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- statistics start -->
   <section id="statistic" class="bg-gradient-to-b from-[#9b2d2f] via-[#b33436] to-[#9b2d2f] md:py-12 py-10">
